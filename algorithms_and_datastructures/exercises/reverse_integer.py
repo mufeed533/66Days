@@ -15,6 +15,16 @@ def reverse_integer_1(integer):
     return reversed_integer
 
 
+def reverse_integer_2(integer):
+    reversed_integer = 0
+    is_negative = 1 if integer > 0 else -1
+    integer = abs(integer)
+    while integer >= 1:
+        reversed_integer = reversed_integer * 10 + integer % 10
+        integer = integer // 10
+    return reversed_integer * is_negative
+
+
 integer_input = int(input())
 print(reverse_integer_1(integer_input))
-# print(reverse_integer_2(integer_input))
+print(reverse_integer_2(integer_input))
