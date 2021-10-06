@@ -3,6 +3,7 @@ Reverse an input string
 """
 from functools import reduce
 
+
 def reverse_1(string):
     output_string = ""
     for i in range(len(string) - 1, -1, -1):
