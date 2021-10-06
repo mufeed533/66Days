@@ -11,6 +11,7 @@ def reverse_1(string):
     return output_string
 
 
+
 def reverse_2(string):
     string = "".join(reversed(string))
     return string
