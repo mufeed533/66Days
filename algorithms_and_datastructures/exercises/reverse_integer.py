@@ -25,6 +25,7 @@ def reverse_integer_2(integer):
     return reversed_integer * is_negative
 
 
+
 integer_input = int(input())
 print(reverse_integer_1(integer_input))
 print(reverse_integer_2(integer_input))
