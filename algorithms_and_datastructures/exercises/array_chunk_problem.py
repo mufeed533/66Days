@@ -6,6 +6,7 @@ chunk size : [2]
 output : [[1,2], [3,4], [5]]
 """
 
+
 input_array = list(map(int, input().split(" ")))
 chunk_size = int(input())
 
